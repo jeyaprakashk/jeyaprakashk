@@ -9,6 +9,6 @@ jeyaprakashk/jeyaprakashk is a ✨ special ✨ repository because its `README.md
 You can click the Preview link to take a look at your changes.
 --->
 <a href="https://github.com/jeyaprakashk">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=jeyaprakashk&count_private=true&show_icons=true&&hide_title=true&hide_border=true&theme=gotham" />
+  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=jeyaprakashk&count_private=true&show_icons=true&&hide_title=true&hide_border=true&theme=gruvbox_light" />
   <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adamalston&hide_title=true&hide_border=true&layout=compact&langs_count=6" />
 </a>
