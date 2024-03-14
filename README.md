@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @jeyaprakashk
-- 👀 I’m interested in Webdesign, VLSI design...
-- 🌱 I’m currently learning Moodle, Laravel.
-- 💞️ I’m looking to collaborate on developing LMS and Virtual Lab for Engineering students.
-- 📫 How to reach me ...
+- 👀 I am interested in developing programs with HDL (IC Design), MATLAB (Optimization Algorithms), PHP (WebDesign), C and Java (Embedded Devices).
+- 🌱 I’m currently learning Android App Development, AI Programming.
+- 💞️ I’m looking to collaborate on design and developing Embedded Systems, WebApps, Mobile Apps, AI Devices, VLSI Devices.
+- 📫 Reach me jeyaprakashk.ecevlsi@gmail.com
 
 <!---
 jeyaprakashk/jeyaprakashk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
