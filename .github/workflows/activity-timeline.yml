@@ -2,41 +2,43 @@ name: Update Activity Timeline
 
 on:
   workflow_dispatch:
-    schedule:
-      - cron: '0 \* \* \* \*' # Customize CRON run timing - like this it runs hourly
+  schedule:
+    - cron: '0 * * * *' # Runs every hour at minute 0
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Fetch & Render Activity
         uses: FreddyMSchubert/github-activity-timeline@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          username: "jeyaprakashk" # Insert your username here
+          username: "jeyaprakashk"
           max_items: "11"
-          event_templates: > # Customize what to display here
-            { "issues_opened": "{{index}}. 🐛 Opened [{{repo}}#{{payload.issue.number}}]({{payload.issue.html_url}}): “{{payload.issue.title.slice(0,50)}}…”",
-            "issues_closed": "{{index}}. ✅ Closed [{{repo}}#{{payload.issue.number}}]({{payload.issue.html_url}}) by {{actor}}",
-            "issue_commented": "{{index}}. 💬 {{actor}} commented on [{{repo}}#{{payload.issue.number}}]({{payload.comment.html_url}}): “{{payload.comment.body.slice(0,50)}}…”",
-            "pr_opened": "{{index}}. 🆕 PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}}) opened: “{{payload.pull_request.title.slice(0,50)}}…”",
-            "pr_closed": "{{index}}. {{payload.pull_request.merged ? '🎯 Merged' : '❌ Closed'}} PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}}) by {{actor}}",
-            "pr_review_approved": "{{index}}. 👍 {{actor}} approved PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}})",
-            "pr_review_changes_requested": "{{index}}. 🚩 {{actor}} requested changes on PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}})",
-            "pr_review_comment": "{{index}}. 🗣 {{actor}} commented on review for PR [{{repo}}#{{payload.pull_request.number}}]({{payload.comment.html_url}}): “{{payload.comment.body.slice(0,50)}}…”",
-            "push": "{{index}}. 🚀 {{actor}} pushed {{payload.commits.length}} commits to [{{repo_owner}}/{{repo_name}}@{{payload.ref.replace('refs/heads/','')}}]({{payload.compare}}): “{{payload.commits[payload.commits.length-1].message.slice(0,50)}}…”"
-            },
-            "release": "{{index}}. 📡 Released [{{repo}}@{{payload.release.tag_name}}]({{payload.release.html_url}})",
-            "fork": "{{index}}. 🍴 Forked [{{repo}}]({{`https://github.com/${repo}`}}) to [{{payload.forkee.full_name}}]({{payload.forkee.html_url}})",
-            "public": "{{index}}. 🎸 Made [{{repo}}]({{`https://github.com/${repo}`}}) public"
+          event_templates: |
+            {
+              "issues_opened": "{{index}}. 🐛 Opened [{{repo}}#{{payload.issue.number}}]({{payload.issue.html_url}}): “{{payload.issue.title.slice(0,50)}}…”",
+              "issues_closed": "{{index}}. ✅ Closed [{{repo}}#{{payload.issue.number}}]({{payload.issue.html_url}}) by {{actor}}",
+              "issue_commented": "{{index}}. 💬 {{actor}} commented on [{{repo}}#{{payload.issue.number}}]({{payload.comment.html_url}}): “{{payload.comment.body.slice(0,50)}}…”",
+              "pr_opened": "{{index}}. 🆕 PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}}) opened: “{{payload.pull_request.title.slice(0,50)}}…”",
+              "pr_closed": "{{index}}. {{payload.pull_request.merged ? '🎯 Merged' : '❌ Closed'}} PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}}) by {{actor}}",
+              "pr_review_approved": "{{index}}. 👍 {{actor}} approved PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}})",
+              "pr_review_changes_requested": "{{index}}. 🚩 {{actor}} requested changes on PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}})",
+              "pr_review_comment": "{{index}}. 🗣 {{actor}} commented on review for PR [{{repo}}#{{payload.pull_request.number}}]({{payload.comment.html_url}}): “{{payload.comment.body.slice(0,50)}}…”",
+              "push": "{{index}}. 🚀 {{actor}} pushed {{payload.commits.length}} commits to [{{repo_owner}}/{{repo_name}}@{{payload.ref.replace('refs/heads/','')}}]({{payload.compare}}): “{{payload.commits[payload.commits.length-1].message.slice(0,50)}}…”",
+              "release": "{{index}}. 📡 Released [{{repo}}@{{payload.release.tag_name}}]({{payload.release.html_url}})",
+              "fork": "{{index}}. 🍴 Forked [{{repo}}](https://github.com/{{repo}}) to [{{payload.forkee.full_name}}]({{payload.forkee.html_url}})",
+              "public": "{{index}}. 🎸 Made [{{repo}}](https://github.com/{{repo}}) public"
+            }
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md && git diff --cached --quiet || git commit -m "chore: update activity"
+          
       - uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
