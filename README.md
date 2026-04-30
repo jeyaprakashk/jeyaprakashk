@@ -10,5 +10,11 @@ jeyaprakashk/jeyaprakashk is a ✨ special ✨ repository because its `README.md
 You can click the Preview link to take a look at your changes.
 --->
 <!--START_SECTION:activity-->
+1. 🚀 Published release [Release v1.2.3](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.2.3) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+2. 🚀 Published release [Release v1.2.0](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.2.0) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+3. 🚀 Published release [Release v1.1.0](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.1.0) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+4. 🚀 Published release [v1.0.6](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.0.6) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+5. 🚀 Published release [v1.0.5](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.0.5) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+<!--END_SECTION:activity-->
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=jeyaprakashk" alt="jeyaprakashk profile views " /></p>
