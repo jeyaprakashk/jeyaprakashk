@@ -18,18 +18,19 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           username: "jeyaprakashk"
-          max_items: "11"
+          max_items: "15"
           # Simplified templates focused on repo names and counts
           event_templates: |
             {
-              "push": "{{index}}. 🚀 Pushed {{payload.commits ? payload.commits.length : 1}} commit(s) to [{{repo}}]({{payload.compare}})",
-              "issues_opened": "{{index}}. 🐛 Opened issue on {{repo}}",
-              "issues_closed": "{{index}}. ✅ Closed issue on {{repo}}",
-              "pr_opened": "{{index}}. 🆕 Opened PR on {{repo}}",
-              "pr_closed": "{{index}}. 🎯 Merged/Closed PR on {{repo}}",
-              "release": "{{index}}. 📡 Released {{payload.release.tag_name}} on {{repo}}",
-              "fork": "{{index}}. 🍴 Forked {{repo}}",
-              "public": "{{index}}. 🎸 Made {{repo}} public"
+              "push": "{{date}} — 🚀 Pushed {{payload.commits ? payload.commits.length : 1}} commit(s) to [{{repo}}]({{payload.compare}})",
+              "issues_opened": "{{date}} — 🐛 Opened issue on {{repo}}",
+              "issues_closed": "{{date}} — ✅ Closed issue on {{repo}}",
+              "issue_commented": "{{date}} — 💬 Commented on {{repo}}",
+              "pr_opened": "{{date}} — 🆕 Opened PR on {{repo}}",
+              "pr_closed": "{{date}} — 🎯 Merged/Closed PR on {{repo}}",
+              "release": "{{date}} — 📡 Released {{payload.release.tag_name}} on {{repo}}",
+              "fork": "{{date}} — 🍴 Forked {{repo}}",
+              "public": "{{date}} — 🎸 Made {{repo}} public"
             }
 
       - name: Commit & Push
