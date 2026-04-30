@@ -22,15 +22,15 @@ jobs:
           # Simplified templates focused on repo names and counts
           event_templates: |
             {
-              "push": "{{date}} — 🚀 Pushed {{payload.commits ? payload.commits.length : 1}} commit(s) to [{{repo}}]({{payload.compare}})",
-              "issues_opened": "{{date}} — 🐛 Opened issue on {{repo}}",
-              "issues_closed": "{{date}} — ✅ Closed issue on {{repo}}",
-              "issue_commented": "{{date}} — 💬 Commented on {{repo}}",
-              "pr_opened": "{{date}} — 🆕 Opened PR on {{repo}}",
-              "pr_closed": "{{date}} — 🎯 Merged/Closed PR on {{repo}}",
-              "release": "{{date}} — 📡 Released {{payload.release.tag_name}} on {{repo}}",
-              "fork": "{{date}} — 🍴 Forked {{repo}}",
-              "public": "{{date}} — 🎸 Made {{repo}} public"
+              "push": "{{created_at}} — 🚀 Pushed {{payload.commits ? payload.commits.length : 1}} commit(s) to [{{repo}}]({{payload.compare}})",
+              "issues_opened": "{{created_at}} — 🐛 Opened issue on {{repo}}",
+              "issues_closed": "{{created_at}} — ✅ Closed issue on {{repo}}",
+              "issue_commented": "{{created_at}} — 💬 Commented on {{repo}}",
+              "pr_opened": "{{created_at}} — 🆕 Opened PR on {{repo}}",
+              "pr_closed": "{{created_at}} — 🎯 Merged/Closed PR on {{repo}}",
+              "release": "{{created_at}} — 📡 Released {{payload.release.tag_name}} on {{repo}}",
+              "fork": "{{created_at}} — 🍴 Forked {{repo}}",
+              "public": "{{created_at}} — 🎸 Made {{repo}} public"
             }
 
       - name: Commit & Push
