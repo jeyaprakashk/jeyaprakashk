@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on design and developing Embedded Systems, WebApps, Mobile Apps, AI Devices, VLSI Devices;
 - 📫 Reach me:... Energy save mode on :)
 
-![Jeya prakash K's GitHub stats](https://github-readme-stats.vercel.app/api?username=jeyaprakashk&show_icons=true&theme=transparent)
+![Jeya prakash K's GitHub stats](https://github-readme-stats-plum-seven-86.vercel.app/api?username=jeyaprakashk&show_icons=true&theme=transparent)
 <!---
 jeyaprakashk/jeyaprakashk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
