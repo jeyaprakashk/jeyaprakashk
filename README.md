@@ -29,9 +29,9 @@ You can click the Preview link to take a look at your changes.
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=jeyaprakashk" alt="jeyaprakashk profile views " /></p>
 <!--START_SECTION:activity-->
-1. 🚀 Published release [Release v1.2.3](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.2.3) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
-2. 🚀 Published release [Release v1.2.0](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.2.0) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
-3. 🚀 Published release [Release v1.1.0](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.1.0) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
-4. 🚀 Published release [v1.0.6](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.0.6) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
-5. 🚀 Published release [v1.0.5](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.0.5) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+1. 🚀 Published release [v1.2.4](https://github.com/ece-kalasalingam/cotas/releases/tag/v1.2.4) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+2. 🎉 Merged PR [#11](https://github.com/ece-kalasalingam/cotas/pull/11) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+3. 💪 Opened PR [#11](https://github.com/ece-kalasalingam/cotas/pull/11) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+4. 🎉 Merged PR [#10](https://github.com/ece-kalasalingam/cotas/pull/10) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
+5. 💪 Opened PR [#10](https://github.com/ece-kalasalingam/cotas/pull/10) in [ece-kalasalingam/cotas](https://github.com/ece-kalasalingam/cotas)
 <!--END_SECTION:activity-->
