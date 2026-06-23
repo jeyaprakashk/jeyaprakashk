@@ -16,15 +16,6 @@ You can click the Preview link to take a look at your changes.
 2026-05-24T14:10:40Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
 2026-05-24T04:26:58Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
 2026-05-24T04:25:41Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T03:06:53Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T02:43:24Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T02:34:09Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T02:28:50Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T02:26:42Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T02:19:57Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T02:13:53Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T02:11:38Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T02:07:00Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
 <!-- ACTIVITY:END -->
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=jeyaprakashk" alt="jeyaprakashk profile views " /></p>
