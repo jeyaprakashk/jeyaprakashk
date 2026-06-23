@@ -14,8 +14,6 @@ You can click the Preview link to take a look at your changes.
 2026-05-24T14:20:06Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
 2026-05-24T14:17:48Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
 2026-05-24T14:10:40Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T04:26:58Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
-2026-05-24T04:25:41Z — 🚀 Pushed 1 commit(s) to [ece-kalasalingam/ece-kalasalingam.github.io](undefined)
 <!-- ACTIVITY:END -->
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=jeyaprakashk" alt="jeyaprakashk profile views " /></p>
