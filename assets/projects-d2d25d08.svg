@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="312" viewBox="0 0 412 312" role="img" aria-label="Recent projects">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1020"/><stop offset="1" stop-color="#0d3446"/></linearGradient><linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/></linearGradient><clipPath id="c"><rect x="6" y="6" width="400" height="300" rx="14"/></clipPath></defs>
+<g clip-path="url(#c)"><rect x="6" y="6" width="400" height="300" fill="url(#bg)"/><rect x="6" y="6" width="400" height="4" fill="url(#ac)"/></g>
+<rect x="6.5" y="6.5" width="399" height="299" rx="14" fill="none" stroke="#22d3ee" stroke-opacity="0.28"/>
+<text x="30" y="40" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.5" fill="#22d3ee">REPOSITORIES</text>
+<text x="30" y="66" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Recent projects</text>
+<circle cx="34" cy="93" r="3.5" fill="url(#ac)"/>
+<text x="46" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">capstone-project-system</text>
+<text x="382" y="98" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#94a3b8">Oct 2026</text>
+<text x="46" y="116" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#cbd5e1">Workflow for capstone team intake, guide approval…</text>
+<line x1="30" y1="122" x2="382" y2="122" stroke="#ffffff" stroke-opacity="0.08"/>
+<circle cx="34" cy="137" r="3.5" fill="url(#ac)"/>
+<text x="46" y="142" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">fa-mentoring</text>
+<text x="382" y="142" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#94a3b8">May 2026</text>
+<text x="46" y="160" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#cbd5e1">Student progress tracking by faculty mentors</text>
+<line x1="30" y1="166" x2="382" y2="166" stroke="#ffffff" stroke-opacity="0.08"/>
+<circle cx="34" cy="181" r="3.5" fill="url(#ac)"/>
+<text x="46" y="186" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">cotas</text>
+<text x="382" y="186" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#94a3b8">May 2026</text>
+<text x="46" y="204" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#cbd5e1">FOCUS (Framework for Outcome Computation and Unif…</text>
+<line x1="30" y1="210" x2="382" y2="210" stroke="#ffffff" stroke-opacity="0.08"/>
+<circle cx="34" cy="225" r="3.5" fill="url(#ac)"/>
+<text x="46" y="230" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">magazines</text>
+<text x="382" y="230" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#94a3b8">Mar 2026</text>
+<text x="46" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#cbd5e1">KARE ECE Magazine Electrocomm</text>
+<line x1="30" y1="254" x2="382" y2="254" stroke="#ffffff" stroke-opacity="0.08"/>
+<circle cx="34" cy="269" r="3.5" fill="url(#ac)"/>
+<text x="46" y="274" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">btechece2025</text>
+<text x="382" y="274" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#94a3b8">Mar 2026</text>
+<text x="46" y="292" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#cbd5e1">B.Tech. ECE 2025 Syllabus</text>
+
+</svg>
