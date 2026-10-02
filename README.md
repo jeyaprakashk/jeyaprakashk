@@ -30,7 +30,15 @@ I teach and mentor undergraduate ECE students, and build software tools that sup
 
 Full record: [Google Scholar](https://scholar.google.com/citations?user=qy5WiAwAAAAJ) · [ORCID](https://orcid.org/0000-0001-7493-1914) · [Web of Science](https://www.webofscience.com/wos/author/record/K-9233-2018)
 
-<!-- PUBLICATIONS:START --> <!-- PUBLICATIONS:END -->
+<!-- PUBLICATIONS:START -->
+- [Al-Mg-MoS2 reinforced hybrid metal matrix: Bio-machinability characteristics](https://doi.org/10.1016/j.sciaf.2025.e03131) — Scientific African, 2026
+- [Intelligent Plant Disease Diagnosis: Harnessing Machine Learning and Deep Learning for Precision Agriculture](https://doi.org/10.1007/978-3-032-14041-8_27) — Lecture Notes in Networks and Systems, 2026
+- [Machine Learning for Early Detection and Continuous Monitoring of Rheumatoid Arthritis](https://doi.org/10.1109/ICNSoC66817.2025.00109) — 2025
+- [Advanced Optimized Quantum Learning for Robust Water Quality Assessment with an IoT Sensor Data](https://doi.org/10.18280/ISI.300207) — Ingenierie des Systemes d'Information, 2025
+- [Block chain based novel energy efficient routing protocol for wireless sensor network](https://doi.org/10.1063/5.0247027) — AIP Conference Proceedings, 2025
+
+<sub>Most recent works from ORCID · updated automatically</sub>
+<!-- PUBLICATIONS:END -->
 ## Technical interests
 
 - **Hardware description and IC design:** Verilog, VHDL, LTspice
