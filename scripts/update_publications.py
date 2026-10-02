@@ -1,27 +1,42 @@
 #!/usr/bin/env python3
-"""Refresh the publications block in README.md from the public ORCID API.
+"""Refresh the recent-publications block in README.md.
 
-Only the text between <!-- PUBLICATIONS:START --> and <!-- PUBLICATIONS:END -->
-is rewritten. Uses the standard library only.
+Source: the public ORCID API (no key needed). Shows the 5 most recent works.
+Retracted works are never shown: each DOI is checked against OpenAlex's
+is_retracted flag, and titles that mark a retraction/withdrawal are skipped.
+If the retraction check cannot run, README.md is left unchanged.
+Only the text between <!-- PUBLICATIONS:START --> and <!-- PUBLICATIONS:END --> changes.
+Uses the standard library only.
 """
 import json
 import re
 import sys
+import urllib.parse
 import urllib.request
 
 ORCID_ID = "0000-0001-7493-1914"
 README = "README.md"
-MAX_ITEMS = 8
+MAX_ITEMS = 5
 START, END = "<!-- PUBLICATIONS:START -->", "<!-- PUBLICATIONS:END -->"
+UA = {"User-Agent": "profile-readme-updater"}
+
+# Titles that mark a retracted/withdrawn paper or a retraction notice.
+RETRACTED_TITLE = re.compile(
+    r"^\W*(retracted|retraction|withdrawn)\b|\[retracted\]|\(retracted\)", re.I
+)
+
+
+def get_json(url, accept=None):
+    headers = dict(UA)
+    if accept:
+        headers["Accept"] = accept
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.load(resp)
 
 
 def fetch_works():
-    req = urllib.request.Request(
-        f"https://pub.orcid.org/v3.0/{ORCID_ID}/works",
-        headers={"Accept": "application/json", "User-Agent": "profile-readme-updater"},
-    )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    return get_json(f"https://pub.orcid.org/v3.0/{ORCID_ID}/works", "application/json")
 
 
 def parse(data):
@@ -47,20 +62,41 @@ def parse(data):
     return works
 
 
+def drop_retracted(works):
+    """Drop retracted works. Raises if the OpenAlex check fails."""
+    works = [w for w in works if not RETRACTED_TITLE.search(w["title"])]
+    dois = sorted({w["doi"].lower() for w in works if w["doi"]})
+    retracted = set()
+    for i in range(0, len(dois), 40):
+        chunk = dois[i : i + 40]
+        params = {
+            "filter": "doi:" + "|".join(f"https://doi.org/{d}" for d in chunk),
+            "per-page": "50",
+            "select": "doi,is_retracted",
+        }
+        url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params, safe=":/|,")
+        for r in get_json(url).get("results", []):
+            if r.get("is_retracted") and r.get("doi"):
+                retracted.add(r["doi"].lower().replace("https://doi.org/", ""))
+    return [w for w in works if w["doi"].lower() not in retracted]
+
+
 def render(works):
     lines = []
     for w in works[:MAX_ITEMS]:
-        title = f"[{w['title']}](https://doi.org/{w['doi']})" if w["doi"] else w["title"]
+        head = f"[{w['title']}](https://doi.org/{w['doi']})" if w["doi"] else w["title"]
         tail = ", ".join(p for p in (w["venue"], w["year"]) if p)
-        lines.append(f"- {title}" + (f" — {tail}" if tail else ""))
-    total = len(works)
-    lines.append("")
-    lines.append(f"<sub>{total} works on ORCID · updated automatically</sub>")
+        lines.append(f"- {head}" + (f" — {tail}" if tail else ""))
+    lines += ["", "<sub>Most recent works from ORCID · updated automatically</sub>"]
     return "\n".join(lines)
 
 
 def main():
-    works = parse(fetch_works())
+    try:
+        works = drop_retracted(parse(fetch_works()))
+    except Exception as exc:  # network error, rate limit, bad JSON
+        print(f"Could not fetch or verify works ({exc}); leaving README unchanged.")
+        return 0
     if not works:
         print("No public works returned; leaving README unchanged.")
         return 0
