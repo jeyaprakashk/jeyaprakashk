@@ -1,7 +1,4 @@
-# Jeya Prakash K
-
-**Faculty, Department of Electronics and Communication Engineering**
-[Kalasalingam Academy of Research and Education](https://www.eceklu.in), Krishnankoil, Tamil Nadu, India
+<div align="center"> <img src="assets/banner.svg" alt="Jeya Prakash K — Faculty, Electronics and Communication Engineering" width="100%">
 
 VLSI and embedded systems · Outcome-based education tooling
 
