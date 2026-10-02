@@ -15,12 +15,13 @@ I teach and mentor undergraduate ECE students, and build software tools that sup
 ## Projects
 
 <!-- PROJECTS:START -->
-| Project | Description |
+| Project | What it does |
 |---|---|
-| [**capstone-project-system**](https://github.com/jeyaprakashk/capstone-project-system) | Workflow for capstone team intake, guide approval, review and evaluation |
-| [**fa-mentoring**](https://github.com/ece-kalasalingam/fa-mentoring) | Student progress tracking by faculty mentors |
-| [**cotas**](https://github.com/ece-kalasalingam/cotas) | FOCUS (Framework for Outcome Computation and Unification System), a desktop tool for outcome-based education workflows |
-| [**vlab**](https://github.com/ece-kalasalingam/vlab) | Virtual laboratory for ECE experiments |
+| [**capstone-project-system**](https://github.com/jeyaprakashk/capstone-project-system) | Workflow for capstone team intake, guide approval, review and evaluation<br><sub>Updated Oct 2026</sub> |
+| [**fa-mentoring**](https://github.com/ece-kalasalingam/fa-mentoring) | Student progress tracking by faculty mentors<br><sub>Updated May 2026</sub> |
+| [**cotas**](https://github.com/ece-kalasalingam/cotas) | FOCUS (Framework for Outcome Computation and Unification System), a desktop tool for outcome-based education workflows<br><sub>Updated May 2026</sub> |
+| [**magazines**](https://github.com/ece-kalasalingam/magazines) | KARE ECE Magazine Electrocomm<br><sub>Updated Mar 2026</sub> |
+| [**btechece2025**](https://github.com/ece-kalasalingam/btechece2025) | B.Tech. ECE 2025 Syllabus<br><sub>Updated Mar 2026</sub> |
 <!-- PROJECTS:END -->
 
 ## Publications
