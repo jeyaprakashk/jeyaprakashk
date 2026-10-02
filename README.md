@@ -31,6 +31,15 @@ I teach and mentor undergraduate ECE students, and build software tools that sup
 Full record: [Google Scholar](https://scholar.google.com/citations?user=qy5WiAwAAAAJ) · [ORCID](https://orcid.org/0000-0001-7493-1914) · [Web of Science](https://www.webofscience.com/wos/author/record/K-9233-2018)
 
 <!-- SELECTED:START -->
+**Most cited**
+
+- [Machine learning based effective linear regression model for TSV layer assignment in 3DIC](https://doi.org/10.1016/j.micpro.2021.103953) — Microprocessors and Microsystems, 2021 · 19 citations
+- [Floor Planning of 3D IC Design Using Hybrid Multi-verse Optimizer](https://doi.org/10.1007/s11277-021-08166-z) — Wireless Personal Communications, 2021 · 13 citations
+- [Enhanced Archimedes Optimization Algorithm for Clustered Wireless Sensor Networks](https://doi.org/10.32604/cmc.2022.025939) — Computers, materials & continua/Computers, materials & continua (Print), 2022 · 8 citations
+- [Machinability performance of Al–NiTi and Al–NiTi–nano SiC composites with parametric optimization using GSA](https://doi.org/10.1007/s41779-017-0072-4) — Journal of the Australian Ceramic Society, 2017 · 8 citations
+- [RETRACTED ARTICLE: TSV Aware 3D IC Partitioning with Area Optimization](https://doi.org/10.1007/s13369-021-05604-9) — Arabian Journal for Science and Engineering, 2021 · 7 citations
+
+<sub>Ranked by citation count (OpenAlex) · updated automatically</sub>
 <!-- SELECTED:END -->
 
 ## Technical interests
