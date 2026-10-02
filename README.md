@@ -7,6 +7,7 @@
 <a href="https://orcid.org/0000-0001-7493-1914"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white"></a>
 <a href="https://github.com/jeyaprakashk"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"></a>
 </div>
+
 ## About
 
 I teach and mentor undergraduate ECE students, and build software tools that support teaching, laboratory work and academic quality processes. My technical interests are digital and analog IC design, embedded systems and optimisation algorithms.
