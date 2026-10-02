@@ -36,6 +36,10 @@ Full record: [Google Scholar](https://scholar.google.com/citations?user=qy5WiAwA
 
 <sub>Most recent works from ORCID · updated automatically</sub>
 <!-- PUBLICATIONS:END -->
+## Research supervision
+
+I guide Ph.D. scholars in VLSI and embedded systems research, with a focus on work that leads to peer-reviewed publications. Prospective scholars are welcome to get in touch through [LinkedIn](https://www.linkedin.com/in/jeya-prakash-k/) with a short note on their research interest and background.
+
 ## Technical interests
 <img alt="Verilog" src="https://img.shields.io/badge/Verilog-0f766e?style=flat-square"> <img alt="VHDL" src="https://img.shields.io/badge/VHDL-0f766e?style=flat-square"> <img alt="LTspice" src="https://img.shields.io/badge/LTspice-0369a1?style=flat-square"> <img alt="MATLAB" src="https://img.shields.io/badge/MATLAB-c2410c?style=flat-square"> <br> <img alt="C" src="https://img.shields.io/badge/C-475569?style=flat-square&logo=c&logoColor=white"> <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-b45309?style=flat-square&logo=javascript&logoColor=white"> <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"> <img alt="Apps Script" src="https://img.shields.io/badge/Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white">
 
