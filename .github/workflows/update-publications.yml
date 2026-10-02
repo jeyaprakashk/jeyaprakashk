@@ -1,4 +1,4 @@
-name: Update publications
+name: Update profile
 
 on:
   schedule:
@@ -18,6 +18,10 @@ jobs:
           python-version: "3.12"
       - name: Refresh recent publications from ORCID
         run: python scripts/update_publications.py
+      - name: Refresh recent projects from GitHub
+        run: python scripts/update_projects.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if changed
         run: |
           if ! git diff --quiet README.md; then
