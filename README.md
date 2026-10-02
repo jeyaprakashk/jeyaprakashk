@@ -1,4 +1,4 @@
-<div align="center"> <img src="assets/banner.svg" alt="Jeya Prakash K — Faculty, Electronics and Communication Engineering" width="100%">
+<div align="center"> <img src="assets/banner.svg" alt="Jeya Prakash K — Faculty, Electronics and Communication Engineering" width="100%"></div>
 
 VLSI and embedded systems · Outcome-based education tooling
 
