@@ -111,7 +111,7 @@ def github_stats():
 # ---------------------------------------------------------------- drawing
 FONT = "Segoe UI, Helvetica, Arial, sans-serif"
 MONO = "Consolas, Menlo, monospace"
-M, W, H = 6, 420, 300  # margin, card width, card height; canvas is (W+2M) x (H+2M)
+M, W, H = 6, 400, 300  # margin, card width, card height; canvas is (W+2M) x (H+2M)
 LEFT = M + 24
 RIGHT = M + W - 24
 ACC = "#22d3ee"
@@ -152,7 +152,7 @@ def projects_svg(items, month):
             f'<circle cx="{LEFT + 4}" cy="{y - 5}" r="3.5" fill="url(#ac)"/>',
             f'<text x="{LEFT + 16}" y="{y}" font-family="{FONT}" font-size="14" font-weight="700" fill="#ffffff">{x(short(p["name"], 30))}</text>',
             f'<text x="{RIGHT}" y="{y}" text-anchor="end" font-family="{FONT}" font-size="11" fill="#94a3b8">{x(when)}</text>',
-            f'<text x="{LEFT + 16}" y="{y + 18}" font-family="{FONT}" font-size="12" fill="#cbd5e1">{x(short(p["desc"], 54))}</text>',
+            f'<text x="{LEFT + 16}" y="{y + 18}" font-family="{FONT}" font-size="12" fill="#cbd5e1">{x(short(p["desc"], 50))}</text>',
         ]
     return shell("Recent projects", "Repositories", "\n".join(rows), "")
 
@@ -200,8 +200,8 @@ def block(items, stats):
     links = " · ".join(f'<a href="{p["url"]}">{h(p["name"])}</a>' for p in items)
     return (
         '<p align="center">\n'
-        f'<a href="https://github.com/{USER}?tab=repositories"><img src="{p_path}" width="432" alt="Recent projects: {h(", ".join(p["name"] for p in items))}"></a>\n'
-        f'<a href="https://github.com/{USER}"><img src="{s_path}" width="432" alt="GitHub activity"></a>\n'
+        f'<a href="https://github.com/{USER}?tab=repositories"><img src="{p_path}" width="{W + 2 * M}" alt="Recent projects: {h(", ".join(p["name"] for p in items))}"></a>\n'
+        f'<a href="https://github.com/{USER}"><img src="{s_path}" width="{W + 2 * M}" alt="GitHub activity"></a>\n'
         "</p>\n\n"
         f'<p align="center"><sub>{links}</sub></p>'
     )
