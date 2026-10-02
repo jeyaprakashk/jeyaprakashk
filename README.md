@@ -23,6 +23,7 @@ I teach and mentor undergraduate ECE students, and build software tools that sup
 | [**magazines**](https://github.com/ece-kalasalingam/magazines) | KARE ECE Magazine Electrocomm<br><sub>Updated Mar 2026</sub> |
 | [**btechece2025**](https://github.com/ece-kalasalingam/btechece2025) | B.Tech. ECE 2025 Syllabus<br><sub>Updated Mar 2026</sub> |
 <!-- PROJECTS:END -->
+<p align="center"><img src="assets/stats.svg" alt="GitHub activity and publication count" width="560"></p>
 
 ## Publications
 
