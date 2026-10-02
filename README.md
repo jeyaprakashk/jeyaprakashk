@@ -39,7 +39,14 @@ Open to collaboration on embedded systems, VLSI design, educational technology a
 
 ## GitHub Projects
 
-<!-- CARDS:START --> <p align="center"> <a href="https://github.com/jeyaprakashk?tab=repositories"><img src="assets/projects-b6beed48.svg" width="432" alt="Recent projects: capstone-project-system, fa-mentoring, cotas, magazines, btechece2025"></a> <a href="https://github.com/jeyaprakashk"><img src="assets/stats-bbd1c84c.svg" width="432" alt="GitHub activity"></a> </p> <p align="center"><sub><a href="https://github.com/jeyaprakashk/capstone-project-system">capstone-project-system</a> · <a href="https://github.com/ece-kalasalingam/fa-mentoring">fa-mentoring</a> · <a href="https://github.com/ece-kalasalingam/cotas">cotas</a> · <a href="https://github.com/ece-kalasalingam/magazines">magazines</a> · <a href="https://github.com/ece-kalasalingam/btechece2025">btechece2025</a></sub></p> <!-- CARDS:END -->
+<!-- CARDS:START -->
+<p align="center">
+<a href="https://github.com/jeyaprakashk?tab=repositories"><img src="assets/projects-b6beed48.svg" width="432" alt="Recent projects: capstone-project-system, fa-mentoring, cotas, magazines, btechece2025"></a>
+<a href="https://github.com/jeyaprakashk"><img src="assets/stats-fdb79d30.svg" width="432" alt="GitHub activity"></a>
+</p>
+
+<p align="center"><sub><a href="https://github.com/jeyaprakashk/capstone-project-system">capstone-project-system</a> · <a href="https://github.com/ece-kalasalingam/fa-mentoring">fa-mentoring</a> · <a href="https://github.com/ece-kalasalingam/cotas">cotas</a> · <a href="https://github.com/ece-kalasalingam/magazines">magazines</a> · <a href="https://github.com/ece-kalasalingam/btechece2025">btechece2025</a></sub></p>
+<!-- CARDS:END -->
 
 
 <!---
