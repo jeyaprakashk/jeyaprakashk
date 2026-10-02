@@ -8,22 +8,16 @@
 <a href="https://github.com/jeyaprakashk"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"></a>
 </div>
 
+## Technical interests
+<img alt="Verilog" src="https://img.shields.io/badge/Verilog-0f766e?style=flat-square"> <img alt="VHDL" src="https://img.shields.io/badge/VHDL-0f766e?style=flat-square"> <img alt="LTspice" src="https://img.shields.io/badge/LTspice-0369a1?style=flat-square"> <img alt="MATLAB" src="https://img.shields.io/badge/MATLAB-c2410c?style=flat-square"> <img alt="C" src="https://img.shields.io/badge/C-475569?style=flat-square&logo=c&logoColor=white"> <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-b45309?style=flat-square&logo=javascript&logoColor=white"> <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"> <img alt="Apps Script" src="https://img.shields.io/badge/Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white">
+
 ## About
 
 I teach and mentor undergraduate ECE students, and build software tools that support teaching, laboratory work and academic quality processes. My technical interests are digital and analog IC design, embedded systems and optimisation algorithms.
 
-## Projects
+## Research supervision
 
-<!-- PROJECTS:START -->
-| Project | What it does |
-|---|---|
-| [**capstone-project-system**](https://github.com/jeyaprakashk/capstone-project-system) | Workflow for capstone team intake, guide approval, review and evaluation<br><sub>Updated Oct 2026</sub> |
-| [**fa-mentoring**](https://github.com/ece-kalasalingam/fa-mentoring) | Student progress tracking by faculty mentors<br><sub>Updated May 2026</sub> |
-| [**cotas**](https://github.com/ece-kalasalingam/cotas) | FOCUS (Framework for Outcome Computation and Unification System), a desktop tool for outcome-based education workflows<br><sub>Updated May 2026</sub> |
-| [**magazines**](https://github.com/ece-kalasalingam/magazines) | KARE ECE Magazine Electrocomm<br><sub>Updated Mar 2026</sub> |
-| [**btechece2025**](https://github.com/ece-kalasalingam/btechece2025) | B.Tech. ECE 2025 Syllabus<br><sub>Updated Mar 2026</sub> |
-<!-- PROJECTS:END -->
-<p align="center"><img src="assets/stats.svg" alt="GitHub activity and publication count" width="560"></p>
+I guide Ph.D. scholars in VLSI and embedded systems research, with a focus on work that leads to peer-reviewed publications. Prospective scholars are welcome to get in touch through [LinkedIn](https://www.linkedin.com/in/jeya-prakash-k/) with a short note on their research interest and background.
 
 ## Publications
 
@@ -38,19 +32,16 @@ Full record: [Google Scholar](https://scholar.google.com/citations?user=qy5WiAwA
 
 <sub>Most recent works from ORCID · updated automatically</sub>
 <!-- PUBLICATIONS:END -->
-## Research supervision
-
-I guide Ph.D. scholars in VLSI and embedded systems research, with a focus on work that leads to peer-reviewed publications. Prospective scholars are welcome to get in touch through [LinkedIn](https://www.linkedin.com/in/jeya-prakash-k/) with a short note on their research interest and background.
-
-## Technical interests
-<img alt="Verilog" src="https://img.shields.io/badge/Verilog-0f766e?style=flat-square"> <img alt="VHDL" src="https://img.shields.io/badge/VHDL-0f766e?style=flat-square"> <img alt="LTspice" src="https://img.shields.io/badge/LTspice-0369a1?style=flat-square"> <img alt="MATLAB" src="https://img.shields.io/badge/MATLAB-c2410c?style=flat-square"> <img alt="C" src="https://img.shields.io/badge/C-475569?style=flat-square&logo=c&logoColor=white"> <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-b45309?style=flat-square&logo=javascript&logoColor=white"> <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"> <img alt="Apps Script" src="https://img.shields.io/badge/Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white">
 
 ## Collaboration
 
 Open to collaboration on embedded systems, VLSI design, educational technology and student projects.
 
+## GitHub Projects
 
-![Jeya prakash K's GitHub stats](https://github-readme-stats-plum-seven-86.vercel.app/api?username=jeyaprakashk&show_icons=true&theme=transparent)
+<!-- CARDS:START --> <p align="center"> <a href="https://github.com/jeyaprakashk?tab=repositories"><img src="assets/projects-b6beed48.svg" width="432" alt="Recent projects: capstone-project-system, fa-mentoring, cotas, magazines, btechece2025"></a> <a href="https://github.com/jeyaprakashk"><img src="assets/stats-bbd1c84c.svg" width="432" alt="GitHub activity"></a> </p> <p align="center"><sub><a href="https://github.com/jeyaprakashk/capstone-project-system">capstone-project-system</a> · <a href="https://github.com/ece-kalasalingam/fa-mentoring">fa-mentoring</a> · <a href="https://github.com/ece-kalasalingam/cotas">cotas</a> · <a href="https://github.com/ece-kalasalingam/magazines">magazines</a> · <a href="https://github.com/ece-kalasalingam/btechece2025">btechece2025</a></sub></p> <!-- CARDS:END -->
+
+
 <!---
 jeyaprakashk/jeyaprakashk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
