@@ -42,7 +42,7 @@ Open to collaboration on embedded systems, VLSI design, educational technology a
 <!-- CARDS:START -->
 <p align="center">
 <a href="https://github.com/jeyaprakashk?tab=repositories"><img src="assets/projects-d2d25d08.svg" width="412" alt="Recent projects: capstone-project-system, fa-mentoring, cotas, magazines, btechece2025"></a>
-<a href="https://github.com/jeyaprakashk"><img src="assets/stats-573657f8.svg" width="412" alt="GitHub activity"></a>
+<a href="https://github.com/jeyaprakashk"><img src="assets/stats-fc0a8613.svg" width="412" alt="GitHub activity"></a>
 </p>
 
 <p align="center"><sub><a href="https://github.com/jeyaprakashk/capstone-project-system">capstone-project-system</a> · <a href="https://github.com/ece-kalasalingam/fa-mentoring">fa-mentoring</a> · <a href="https://github.com/ece-kalasalingam/cotas">cotas</a> · <a href="https://github.com/ece-kalasalingam/magazines">magazines</a> · <a href="https://github.com/ece-kalasalingam/btechece2025">btechece2025</a></sub></p>
